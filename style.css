@@ -1,0 +1,115 @@
+@font-face {
+    font-family: creepyFont;
+    src: url(fonts/creepster.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    padding: 3vh 0;
+    text-align: center;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(18px + 1.5vw);
+    font-family: Georgia, serif;
+    color: #ff7518;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 1vh 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 1vh 2vw;
+    text-decoration: none;
+    color: #f2f2f2;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #ff7518;
+}
+
+footer {
+    text-align: center;
+    padding: 2vh 0;
+    font-size: calc(10px + 0.3vw);
+}
+
+.home-page main {
+    height: 100vh;
+    padding: 4vh 5vw;
+    text-align: center;
+}
+
+.home-page main img {
+    max-width: 100%;
+}
+
+.home-page main h2 {
+    font-size: calc(16px + 1vw);
+    color: #ff7518;
+}
+
+.home-page main p {
+    font-size: calc(14px + 0.3vw);
+    text-align: left;
+}
+
+.pumpkin-page main.pumpkin-main {
+    height: 130vh;
+    padding: 5vh 5vw;
+    background-color: #0d0d0d;
+    text-align: center;
+}
+
+.spooky-title {
+    font-family: creepyFont, cursive;
+    font-size: calc(24px + 2vw);
+    color: #ff7518;
+}
+
+.pumpkin-box {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #ff7518;
+    padding: 4vh 4vw;
+    background-color: #1f1f1f;
+}
+
+.pumpkin-box p {
+    font-size: calc(14px + 0.3vw);
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90vw;
+    }
+
+    nav li a {
+        padding: 1vh 3vw;
+    }
+}
