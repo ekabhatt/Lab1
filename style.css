@@ -104,6 +104,27 @@ footer {
     text-align: left;
 }
 
+.scary-page main.scary-main {
+    text-align: center;
+}
+
+#scary-button {
+    font-family: creepyFont, cursive;
+    font-size: calc(16px + 1vw);
+}
+
+#cuteimg img {
+    max-width: 100%;
+}
+
+#scaryimg {
+    display: none;
+}
+
+#scaryimg img {
+    max-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         width: 90vw;
